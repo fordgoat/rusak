@@ -1,6 +1,6 @@
 import asyncio
 
-async def main().
+async def main():
 bot = Bot()
 await bot.start()
 
