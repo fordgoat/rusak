@@ -1,7 +1,7 @@
-import asyncio
+from pyrogram import Client
 
 async def main():
-    bot = Bot()
+    bot = Client("bot")
     await bot.start()
 
 asyncio.run(main())
