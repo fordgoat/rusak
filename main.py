@@ -1,3 +1,4 @@
 from bot import Bot
 
-Bot().start()
+bot = Bot()
+await bot.start()
